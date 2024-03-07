@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="646.0" prefWidth="1141.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="trade.fair.RegulationsController">
+   <children>
+      <Label layoutX="78.0" layoutY="58.0" text="Regulations">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="128.0" prefHeight="472.0" prefWidth="1057.0" text="Label" />
+   </children>
+</AnchorPane>
