@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="568.0" prefWidth="796.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="manager.FinancialReportController">
+   <children>
+      <Label layoutX="241.0" layoutY="27.0" prefHeight="50.0" prefWidth="314.0" text="Financial Report">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Label>
+      <TreeTableView layoutX="22.0" layoutY="101.0" prefHeight="410.0" prefWidth="750.0">
+        <columns>
+          <TreeTableColumn prefWidth="145.60003089904785" text="Description" />
+          <TreeTableColumn prefWidth="82.4000244140625" text="Amount" />
+            <TreeTableColumn prefWidth="98.39996337890625" text="Date" />
+            <TreeTableColumn prefWidth="132.79998779296875" text="Expanses" />
+            <TreeTableColumn prefWidth="134.39999389648438" text="Profit" />
+            <TreeTableColumn prefWidth="160.7999267578125" text="Date" />
+        </columns>
+      </TreeTableView>
+   </children>
+</AnchorPane>

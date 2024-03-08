@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="-6.0" layoutY="-7.0" prefHeight="634.0" prefWidth="694.0">
+         <children>
+            <TableView fx:id="tableView" layoutX="29.0" layoutY="178.0" prefHeight="241.0" prefWidth="637.0">
+               <columns>
+                  <TableColumn fx:id="firstNameColumn" prefWidth="93.0" text="First Name" />
+                  <TableColumn fx:id="lastNameColumn" prefWidth="106.0" text="Last Name" />
+                  <TableColumn fx:id="dobColumn" prefWidth="102.0" text="Dob" />
+                  <TableColumn fx:id="userIdColumn" prefWidth="141.0" text="UserId" />
+                  <TableColumn fx:id="genderColumn" prefWidth="75.0" text="Gender" />
+                  <TableColumn fx:id="salaryColumn" prefWidth="119.0" text="Salary" />
+               </columns>
+            </TableView>
+            <TextField fx:id="firstNameTextField" layoutX="30.0" layoutY="454.0" promptText="Enter First Name" />
+            <TextField fx:id="salaryTextField" layoutX="206.0" layoutY="487.0" promptText="Enter Salary" />
+            <DatePicker fx:id="dobDatePicker" layoutX="30.0" layoutY="522.0" prefHeight="25.0" prefWidth="149.0" promptText="Select Date" />
+            <Button layoutX="31.0" layoutY="586.0" mnemonicParsing="false" onAction="#addemployeeButtonOnClick" prefHeight="25.0" prefWidth="160.0" text="Add Employee" />
+            <Button layoutX="564.0" layoutY="586.0" mnemonicParsing="false" onAction="#backButtonOnClick" prefHeight="25.0" prefWidth="92.0" text="Back" />
+            <TextField fx:id="lastNameTextField" layoutX="206.0" layoutY="454.0" promptText="Enter Last Name" />
+            <TextField fx:id="idTextField" layoutX="30.0" layoutY="487.0" promptText="Enter Id" />
+            <AnchorPane layoutX="-3.0" opacity="0.78" prefHeight="106.0" prefWidth="697.0" style="-fx-background-color: black;">
+               <children>
+                  <Label layoutX="179.0" layoutY="33.0" prefHeight="23.0" prefWidth="418.0" text="Dhaka International Trade Fair (DITF) - 2024" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="36.0" layoutY="56.0" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="181.0" layoutY="56.0" prefHeight="30.0" prefWidth="375.0" text="Bangabandhu Bangladesh-China Friendship Exhibition Center" textFill="WHITE">
+                     <font>
+                        <Font name="Arial" size="11.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="103.0" fitWidth="78.0" layoutX="38.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../User5%20login/src/image/login%20logo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <RadioButton fx:id="maleRadioButton" layoutX="320.0" layoutY="526.0" mnemonicParsing="false" text="Male" />
+            <RadioButton fx:id="femaleRadioButton" layoutX="385.0" layoutY="526.0" mnemonicParsing="false" text="Female" />
+            <Label layoutX="206.0" layoutY="526.0" prefHeight="17.0" prefWidth="92.0" text="Enter Gender" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
