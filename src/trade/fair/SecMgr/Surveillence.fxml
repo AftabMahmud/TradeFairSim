@@ -6,12 +6,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="646.0" prefWidth="1141.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="trade.fair.SurveillenceController">
+<AnchorPane id="AnchorPane" prefHeight="646.0" prefWidth="1141.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trade.fair.SurveillenceController">
    <children>
-      <Label layoutX="114.0" layoutY="94.0" text="Surveillance">
+      <Label layoutX="62.0" layoutY="51.0" text="Surveillance">
          <font>
-            <Font size="30.0" />
+            <Font size="40.0" />
          </font>
       </Label>
       <Label layoutX="114.0" layoutY="178.0" text="event title" />
