@@ -5,8 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="689.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="POC.POCDashboardController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="689.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="POC.POCDashboardController">
    <children>
       <Label layoutX="113.0" layoutY="22.0" text="Program Coordinator Dashboard ">
          <font>
@@ -15,6 +14,8 @@
       </Label>
       <Button layoutX="144.0" layoutY="125.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="128.0" text="Exhibitor information" />
       <Button layoutX="453.0" layoutY="125.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="128.0" text="Stall Information" />
-      <Button layoutX="305.0" layoutY="227.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="128.0" text="Stall Service" />
+      <Button layoutX="293.0" layoutY="125.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="128.0" text="Stall Service" />
+      <Button layoutX="144.0" layoutY="191.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="128.0" text="Exhibitor Communication" />
+      <Button layoutX="443.0" layoutY="191.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="128.0" text="Report Analysis" />
    </children>
 </AnchorPane>

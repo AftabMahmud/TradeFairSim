@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package manager;
+package POC;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -14,7 +14,7 @@ import javafx.fxml.Initializable;
  *
  * @author Asus
  */
-public class POCnoticeboardController implements Initializable {
+public class ExhibitorCommunicationController implements Initializable {
 
     /**
      * Initializes the controller class.
