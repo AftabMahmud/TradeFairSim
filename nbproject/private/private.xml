@@ -3,36 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/SecMgr/SurveillenceController.java</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/SecMgr/CredentialController.java</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/SecMgr/TrainingController.java</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/Reporting.fxml</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/UserSupportController.java</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/SecMgr/Credential.fxml</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/UserSupport.fxml</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/FXMLDocumentController.java</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/SecMgr/Training.fxml</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/FXMLDocument.fxml</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/SecMgr/Emergency.fxml</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/SecMgr/Communication.fxml</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/SecMgr/CrowdControl.fxml</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/CheckIn.fxml</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/Surveillence.fxml</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/SecMgr/SecMgr.java</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/CheckInController.java</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/SecMgr/AttendeeListController.java</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/RegMgr.fxml</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/Regulations.fxml</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/TradeFair.java</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/ReportingController.java</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/RegMgrController.java</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/SecMgr/AssetProtection.fxml</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/RegulationsController.java</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/SecMgr/AssetProtectionController.java</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/SecMgr/CommunicationController.java</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/SecMgr/AttendeeList.fxml</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/SecMgr/CrowdControlController.java</file>
-            <file>file:/C:/Users/aftab/OneDrive/Documents/NetBeansProjects/Trade%20Fair/src/trade/fair/SecMgr/EmergencyController.java</file>
+            <file>file:/C:/Users/CITS_2/Desktop/Trade%20Fair/TradeFairSim/src/trade/fair/SecMgr/SecMgr.fxml</file>
+            <file>file:/C:/Users/CITS_2/Desktop/Trade%20Fair/TradeFairSim/src/trade/fair/SecMgr/SecMgrController.java</file>
         </group>
     </open-files>
 </project-private>
