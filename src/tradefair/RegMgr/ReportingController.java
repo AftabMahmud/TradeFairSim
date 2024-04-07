@@ -3,10 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tradefair.trade.fair.SecMgr;
+package tradefair.RegMgr;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 
 /**
@@ -14,7 +16,7 @@ import javafx.fxml.Initializable;
  *
  * @author aftab
  */
-public class CredentialController implements Initializable {
+public class ReportingController implements Initializable {
 
     /**
      * Initializes the controller class.
@@ -23,5 +25,9 @@ public class CredentialController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+
+    @FXML
+    private void genReport(ActionEvent event) {
+    }
     
 }

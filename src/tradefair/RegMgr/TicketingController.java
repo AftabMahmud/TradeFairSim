@@ -3,11 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tradefair.trade.fair;
+package tradefair.RegMgr;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.ComboBox;
@@ -20,24 +19,20 @@ import javafx.scene.control.TextField;
  *
  * @author CITS_2
  */
-public class RegBoothController implements Initializable {
+public class TicketingController implements Initializable {
 
     @FXML
-    private ComboBox<String> boothSizeCombo;
+    private ComboBox<?> ticketTypeCombo;
     @FXML
-    private TextField BoothNoTfield;
+    private TextField ticketSlTfield;
     @FXML
-    private TextField boothLocTfield;
+    private TableView<?> ticketTableView;
     @FXML
-    private TableView<?> boothTableview;
+    private TableColumn<?, ?> ticketSlCol;
     @FXML
-    private TableColumn<?, ?> boothNoCol;
+    private TableColumn<?, ?> ticketTypeCol;
     @FXML
-    private TableColumn<?, ?> boothSizeCol;
-    @FXML
-    private TableColumn<?, ?> boothLocCol;
-    @FXML
-    private TableColumn<?, ?> boothAssignCol;
+    private TableColumn<?, ?> ticketPriceCol;
 
     /**
      * Initializes the controller class.
@@ -46,9 +41,5 @@ public class RegBoothController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
-
-    @FXML
-    private void boothSubmitB(ActionEvent event) {
-    }
     
 }

@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tradefair.trade.fair;
+package tradefair.RegMgr;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
@@ -19,20 +21,24 @@ import javafx.scene.control.TextField;
  *
  * @author CITS_2
  */
-public class TicketingController implements Initializable {
+public class RegStaffController implements Initializable {
 
     @FXML
-    private ComboBox<?> ticketTypeCombo;
+    private TableView<?> staffTableview;
     @FXML
-    private TextField ticketSlTfield;
+    private TableColumn<?, ?> staffIdCol;
     @FXML
-    private TableView<?> ticketTableView;
+    private TableColumn<?, ?> staffnameCol;
     @FXML
-    private TableColumn<?, ?> ticketSlCol;
+    private TableColumn<?, ?> staffPosCol;
     @FXML
-    private TableColumn<?, ?> ticketTypeCol;
+    private TextField staffNameTfield;
     @FXML
-    private TableColumn<?, ?> ticketPriceCol;
+    private TextField staffIdTfield;
+    @FXML
+    private ComboBox<?> staffPostCombo;
+    @FXML
+    private Button staffRegSubmitB;
 
     /**
      * Initializes the controller class.
@@ -41,5 +47,9 @@ public class TicketingController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+
+    @FXML
+    private void regstaffsubmit(ActionEvent event) {
+    }
     
 }

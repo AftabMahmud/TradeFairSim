@@ -3,14 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tradefair.trade.fair;
+package tradefair.RegMgr;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
@@ -21,24 +20,24 @@ import javafx.scene.control.TextField;
  *
  * @author CITS_2
  */
-public class RegStaffController implements Initializable {
+public class RegBoothController implements Initializable {
 
     @FXML
-    private TableView<?> staffTableview;
+    private ComboBox<String> boothSizeCombo;
     @FXML
-    private TableColumn<?, ?> staffIdCol;
+    private TextField BoothNoTfield;
     @FXML
-    private TableColumn<?, ?> staffnameCol;
+    private TextField boothLocTfield;
     @FXML
-    private TableColumn<?, ?> staffPosCol;
+    private TableView<?> boothTableview;
     @FXML
-    private TextField staffNameTfield;
+    private TableColumn<?, ?> boothNoCol;
     @FXML
-    private TextField staffIdTfield;
+    private TableColumn<?, ?> boothSizeCol;
     @FXML
-    private ComboBox<?> staffPostCombo;
+    private TableColumn<?, ?> boothLocCol;
     @FXML
-    private Button staffRegSubmitB;
+    private TableColumn<?, ?> boothAssignCol;
 
     /**
      * Initializes the controller class.
@@ -49,7 +48,7 @@ public class RegStaffController implements Initializable {
     }    
 
     @FXML
-    private void regstaffsubmit(ActionEvent event) {
+    private void boothSubmitB(ActionEvent event) {
     }
     
 }

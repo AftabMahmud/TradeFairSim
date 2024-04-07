@@ -3,20 +3,34 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tradefair.trade.fair;
+package tradefair.RegMgr;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 
 /**
  * FXML Controller class
  *
  * @author aftab
  */
-public class RegulationsController implements Initializable {
+public class UserloginpageController implements Initializable {
+
+    @FXML
+    private TextField nameTextField;
+    @FXML
+    private TextField passTextField;
+    @FXML
+    private ComboBox<?> dessigComboBox;
+    @FXML
+    private TextField idTextField;
+    @FXML
+    private Label wrong;
 
     /**
      * Initializes the controller class.
@@ -27,7 +41,7 @@ public class RegulationsController implements Initializable {
     }    
 
     @FXML
-    private void genPDF(ActionEvent event) {
+    private void userLogin(ActionEvent event) {
     }
     
 }
