@@ -7,7 +7,12 @@ package trade.fair;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
 
 /**
  * FXML Controller class
@@ -15,6 +20,19 @@ import javafx.fxml.Initializable;
  * @author CITS_2
  */
 public class TicketingController implements Initializable {
+
+    @FXML
+    private ComboBox<?> ticketTypeCombo;
+    @FXML
+    private TextField ticketSlTfield;
+    @FXML
+    private TableView<?> ticketTableView;
+    @FXML
+    private TableColumn<?, ?> ticketSlCol;
+    @FXML
+    private TableColumn<?, ?> ticketTypeCol;
+    @FXML
+    private TableColumn<?, ?> ticketPriceCol;
 
     /**
      * Initializes the controller class.

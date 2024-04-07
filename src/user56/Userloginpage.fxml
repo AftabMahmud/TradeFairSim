@@ -32,7 +32,7 @@
                         <Font size="13.0" />
                      </font>
                   </TextField>
-                  <ComboBox fx:id="dessigComboBox" layoutX="76.0" layoutY="222.0" prefHeight="27.0" prefWidth="162.0" promptText="Dessignation" />
+                  <ComboBox fx:id="dessigComboBox" layoutX="76.0" layoutY="222.0" prefHeight="27.0" prefWidth="162.0" promptText="Designation" />
                   <Button layoutX="182.0" layoutY="267.0" mnemonicParsing="false" onAction="#loginButtonOnClick" style="-fx-background-color: gray;" text="Login" textFill="#3c0e0e" />
                   <TextField fx:id="idTextField" blendMode="SCREEN" layoutX="76.0" layoutY="127.0" promptText="User Id">
                      <effect>

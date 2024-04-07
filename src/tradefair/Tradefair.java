@@ -13,13 +13,13 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author kazia
+ * @author Rafid Bapi
  */
 public class Tradefair extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("user56/loginpage.fxml"));
         
         Scene scene = new Scene(root);
         
